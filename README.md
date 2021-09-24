@@ -16,3 +16,10 @@ The NVIDIA video encoder API is designed to accept raw video frames (in YUV or R
 
 6. Close the encoding session.
 
+## Note
+
+- `Bitstream`: data found in a stream of bits used in digital communication or data storage application.
+
+- Before creating encoder, we should query capabilities of GPU to ensure that required functional is supported.
+
+
